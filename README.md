@@ -1,16 +1,69 @@
-# React + Vite
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+# Induja Medical Store – Pharmacy Management System
 
-Currently, two official plugins are available:
+A web-based pharmacy management and medicine shopping application with separate Owner and Customer portals.
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react) uses [Oxc](https://oxc.rs)
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react-swc) uses [SWC](https://swc.rs/)
+## Project Description
 
-## React Compiler
+Induja Medical Store is a pharmacy management application designed to simplify daily medical store operations and provide customers with a convenient medicine shopping experience.
 
-The React Compiler is not enabled on this template because of its impact on dev & build performances. To add it, see [this documentation](https://react.dev/learn/react-compiler/installation).
+The system includes an Owner Portal for managing medicines, billing, inventory, vendors, purchases, and customer orders. The Customer Portal allows users to browse medicines, explore health products, and access their orders.
 
-## Expanding the ESLint configuration
+## Technologies Used
 
-If you are developing a production application, we recommend using TypeScript with type-aware lint rules enabled. Check out the [TS template](https://github.com/vitejs/vite/tree/main/packages/create-vite/template-react-ts) for information on how to integrate TypeScript and [`typescript-eslint`](https://typescript-eslint.io) in your project.
+- React.js
+- Vite
+- JavaScript
+- Tailwind CSS
+- Supabase
+
+## Key Features
+
+### Owner Portal
+- Inventory and medicine management
+- Billing and sales tracking
+- Low-stock and expiry alerts
+- Vendor and purchase management
+- Customer and order management
+- Revenue and profit dashboard
+- Customer portal QR code access
+- AI Assistant interface
+
+### Customer Portal
+- Medicine search and browsing
+- Health-based product categories
+- Medicine pricing and shopping interface
+- Customer orders
+- Special offers and health services
+- AI Assistant interface
+- Customer profile management
+
+## Project Screenshots
+
+### Homepage
+![Homepage](screenshots/homepage.png)
+
+### Customer Dashboard
+![Customer Dashboard](screenshots/customer-dashboard.png)
+
+### Owner Dashboard
+![Owner Dashboard](screenshots/owner-dashboard.png)
+
+## How to Run
+
+1. Download or clone the repository.
+2. Open the project folder in Visual Studio Code.
+3. Install the required dependencies:
+
+   npm install
+
+4. Configure the required environment variables.
+5. Start the development server:
+
+   npm run dev
+
+6. Open http://localhost:5173/ in your browser.
+
+## Project Status
+
+The application has been tested locally using the Vite development server.
