@@ -9,6 +9,13 @@ Induja Medical Store is a pharmacy management application designed to simplify d
 
 The system includes an Owner Portal for managing medicines, billing, inventory, vendors, purchases, and customer orders. The Customer Portal allows users to browse medicines, explore health products, and access their orders.
 
+
+
+## Live Website
+
+[View Induja Medical Store](https://medical-shop-pos.vercel.app/)
+
+
 ## Technologies Used
 
 - React.js
